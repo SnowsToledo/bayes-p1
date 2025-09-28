@@ -10,7 +10,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 
 from sklearn.metrics import classification_report, roc_auc_score, accuracy_score
-from cmdstanpy import CmdStanModel # CmdStanPy para Bayes
+from cmdstanpy import CmdStanModel, install_cmdstan # CmdStanPy para Bayes
 
 
 # Certifique-se de que 'psycopg2-binary' está instalado para a conexão 'sql'
