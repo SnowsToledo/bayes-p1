@@ -11,7 +11,14 @@ dependencies = [
     "psycopg2 (>=2.9.10,<3.0.0)",
     "pandas (>=2.3.2,<3.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "matplotlib (>=3.10.6,<4.0.0)"
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "streamlit (>=1.50.0,<2.0.0)",
+    "plotly (>=6.3.0,<7.0.0)",
+    "sqlalchemy (>=2.0.43,<3.0.0)",
+    "statsmodels (>=0.14.5,<0.15.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
+    "arviz (>=0.22.0,<0.23.0)",
+    "cmdstanpy (>=1.2.5,<2.0.0)"
 ]
 
 [tool.poetry]
