@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import plotly.express as px
 import plotly.graph_objects as go
 
@@ -11,9 +10,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import OneHotEncoder
 
 from sklearn.metrics import classification_report, roc_auc_score, accuracy_score
-from cmdstanpy import CmdStanModel, install_cmdstan # CmdStanPy para Bayes
-import os
-import io
+from cmdstanpy import CmdStanModel # CmdStanPy para Bayes
+
 
 # Certifique-se de que 'psycopg2-binary' está instalado para a conexão 'sql'
 
